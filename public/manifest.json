@@ -1,0 +1,11 @@
+{
+  "name": "Top Music",
+  "short_name": "Music App",
+  "theme_color": "#af2d2d",
+  "background_color": "#FFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "http://localhost:3000/",
+  "start_url": "/",
+  "splash_pages": null
+}
