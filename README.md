@@ -1,5 +1,4 @@
 # MUSIC APP
 
 ***A Music App to listen to unlimited songs without ads!***
-
-![](images/home.png)
+![](src\images\home.png)
