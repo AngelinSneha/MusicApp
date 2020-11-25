@@ -50,7 +50,7 @@ const LoginPage = lazy(() => import("./LoginPage"));
 const RenderDatabase = lazy(() => import("./RenderDatabase"));
 const SearchResult = lazy(() => import("./SearchResult"));
 const HomePage = lazy(() => import("./sections/HomePage"));
-
+const QuotesPage = lazy(() => import("./sections/QuotesPage"));
 // custom styling the tab menus
 const CustomTab = withStyles({
   root: {
@@ -270,7 +270,7 @@ const CurrentSection = ({ history, location }) => {
             }}
           />
           <Route path="/settings" component={SettingsPage} />
-
+          <Route path="/quotes" component={QuotesPage} />
         </Switch>
         <Route path="/" render={props => returnMainPlayer(props)} />
 

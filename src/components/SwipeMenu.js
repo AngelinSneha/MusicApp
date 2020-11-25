@@ -22,7 +22,7 @@ import {
   People,
   Settings
 } from "@material-ui/icons";
-
+import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import { motion, AnimatePresence } from "framer-motion";
 
 import { Link } from "react-router-dom";
@@ -113,6 +113,12 @@ const SwipeMenu = () => {
               <Settings />
             </ListItemIcon>
             <ListItemText primary="Settings" />
+          </ListItem>
+          <ListItem button component={Link} to="/quotes">
+            <ListItemIcon>
+              <MusicNoteIcon />
+            </ListItemIcon>
+            <ListItemText primary="Quotes" />
           </ListItem>
         </List>
       </div>

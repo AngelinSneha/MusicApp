@@ -90,14 +90,14 @@ const SettingsPage = () => {
   return (
     <Container>
       <br />
-      <Typography variant="h5" align="center" gutterBottom>
+      <Typography variant="h4" align="center" gutterBottom>
         Settings
       </Typography>
       <FormControl component="fieldset">
         <FormGroup row>
           <FormControlLabel
             labelPlacement="start"
-            label="Select Theme "
+            label="Select your favourite Theme: "
             value="top"
             control={selectComp}
           />
